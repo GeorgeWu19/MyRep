@@ -1,17 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T07:00:33.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="g57rGcACkWT3bgrGVOU_" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T07:15:54.126Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="hYro97nk-IuMqUC31rLi" version="21.3.3" type="github">
   <diagram name="第 1 页" id="69PS-kUTxplC0cAKnFhr">
-    <mxGraphModel dx="1434" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gYT4duZdmP7vBCuGks7C-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="130" y="-700" width="510" height="470" as="geometry" />
+          <mxGeometry x="159" y="-730" width="611" height="490" as="geometry" />
         </mxCell>
         <mxCell id="gYT4duZdmP7vBCuGks7C-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ApplicationContext&lt;br&gt;容器&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="-680" width="60" height="30" as="geometry" />
+          <mxGeometry x="440" y="-700" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gYT4duZdmP7vBCuGks7C-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;EventMultiCaster&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-550" width="120" height="60" as="geometry" />
+        <mxCell id="gYT4duZdmP7vBCuGks7C-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="414" y="-620" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-5" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/event_listener.svg;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="-610" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-8" value="&lt;b&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 13px;&quot;&gt;监听器1&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="-610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-9" value="&lt;b&gt;监听事件A&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="454" y="-580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="414" y="-510" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-31" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/event_listener.svg;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="-500" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-32" value="&lt;b&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 13px;&quot;&gt;监听器2&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="-500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-33" value="&lt;b&gt;监听事件B&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="454" y="-470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="414" y="-400" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-35" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/event_listener.svg;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="-390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-36" value="&lt;b&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 13px;&quot;&gt;监听器3&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="-390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-37" value="&lt;b&gt;监听事件A&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="454" y="-360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-38" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-620" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-39" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/event_listener.svg;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-610" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-40" value="&lt;b&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 13px;&quot;&gt;监听器4&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-41" value="&lt;b&gt;监听事件C&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-42" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-510" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-43" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/event_listener.svg;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-500" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-44" value="&lt;b&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 13px;&quot;&gt;监听器5&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-45" value="&lt;b&gt;监听事件B&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-400" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-47" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/event_listener.svg;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-48" value="&lt;b&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 13px;&quot;&gt;监听器6&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-49" value="&lt;b&gt;监听事件A&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-50" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;EventMultiCaster&lt;/font&gt;&lt;/b&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;rounded=1;fillColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-520" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gYT4duZdmP7vBCuGks7C-51" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.loudspeaker;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-730" width="45" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
