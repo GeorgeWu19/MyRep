@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T14:46:53.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Eb5WZrVSrYjD8QJijDvS" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T09:39:10.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ivyeuTu_d5X2hNFe4-AJ" version="21.3.7" type="github">
   <diagram name="第 1 页" id="XxPduqaY6AvRVAXRVLeT">
-    <mxGraphModel dx="2501" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3217" dy="2442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k7U_-NwJ5NO1i_bqe0lr-15" value="MapperProxy&lt;br&gt;mapper的代理对象" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="125" width="220" height="100" as="geometry" />
+          <mxGeometry x="-150" y="95" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="k7U_-NwJ5NO1i_bqe0lr-16" value="+ sqlsession:&amp;nbsp;SqlSessionTemplate&lt;br&gt;（全局唯一，单例Bean，存在容器中）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="k7U_-NwJ5NO1i_bqe0lr-15" vertex="1">
           <mxGeometry y="40" width="220" height="40" as="geometry" />
@@ -18,17 +18,26 @@
         <mxCell id="k7U_-NwJ5NO1i_bqe0lr-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="k7U_-NwJ5NO1i_bqe0lr-15" vertex="1">
           <mxGeometry y="80" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k7U_-NwJ5NO1i_bqe0lr-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MapperMethod&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ command: 方法名及SQL类型，如select&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ method: 方法的出入参属性&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ execute(SqlSession sqlSession, Object[] args)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; 根据上述属性，选择下列方法之一执行&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;executeForMany(SqlSession sqlSession, Object[] args)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; 执行且能返回列表的&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="170" y="100" width="360" height="140" as="geometry" />
+        <mxCell id="ylb18Ezix_Vyf_NCrJ4i-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-25" target="k7U_-NwJ5NO1i_bqe0lr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k7U_-NwJ5NO1i_bqe0lr-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MapperMethod&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ command: 方法名及SQL类型，如select、insert等&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ method: 方法的出入参属性&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ execute(SqlSession sqlSession, Object[] args)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; 根据上述属性，选择下列方法之一执行&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;executeForMany(SqlSession sqlSession, Object[] args)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; 执行且能返回列表的&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="95" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ylb18Ezix_Vyf_NCrJ4i-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-26" target="k7U_-NwJ5NO1i_bqe0lr-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k7U_-NwJ5NO1i_bqe0lr-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SqlSessionTemplate&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;全局唯一，单例Bean，存在容器中&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SqlSessionFactory sqlSessionFactory;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;（全局唯一，创建会话的工厂）&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ExecutorType executorType;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;（执行器类型：SIMPLE, REUSE, BATCH）&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SqlSession sqlSessionProxy;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;（代理，拦截器为SqlSessionInterceptor）&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PersistenceExceptionTranslator exceptionTranslator;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectList(String statement, Object parameter, RowBounds rowBounds)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;调用代理的同名方法&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="660" y="50" width="410" height="230" as="geometry" />
         </mxCell>
+        <mxCell id="ylb18Ezix_Vyf_NCrJ4i-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-31" target="k7U_-NwJ5NO1i_bqe0lr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k7U_-NwJ5NO1i_bqe0lr-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SqlSessionInterceptor&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;代理对象&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ invoke(Object proxy, Method method, Object[] args)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;拦截器，负责获取会话对象，并且由此会话对象来执行方法&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;会话对象一般是DefaultSqlsession&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="95" width="360" height="130" as="geometry" />
+          <mxGeometry x="1150" y="100" width="370" height="130" as="geometry" />
         </mxCell>
         <mxCell id="k7U_-NwJ5NO1i_bqe0lr-32" value="DefaultSqlSession&lt;br&gt;会话对象" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1610" y="60" width="320" height="240" as="geometry" />
+          <mxGeometry x="1610" y="75" width="320" height="240" as="geometry" />
         </mxCell>
         <mxCell id="k7U_-NwJ5NO1i_bqe0lr-33" value="+ Configuration: configuration&lt;br&gt;&amp;nbsp; (全局唯一，mybatis配置，包含全局设置，以及各mapper 信息)&lt;br&gt;+&amp;nbsp;Executor executor&lt;br&gt;&amp;nbsp; 执行器，在生成会话对象时一起生成" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="k7U_-NwJ5NO1i_bqe0lr-32" vertex="1">
           <mxGeometry y="40" width="320" height="100" as="geometry" />
@@ -63,13 +72,16 @@
         <mxCell id="k7U_-NwJ5NO1i_bqe0lr-43" value="+ queryFromDatabase(MappedStatement ms, Object parameter, RowBounds rowBounds, ResultHandler resultHandler, CacheKey key, BoundSql boundSql)&lt;br&gt;&amp;nbsp; &amp;nbsp;（从数据库查询数据，并存到自己这个缓存中）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="k7U_-NwJ5NO1i_bqe0lr-40" vertex="1">
           <mxGeometry y="208" width="525" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="qiZOSL3Y7ibra8DdlLck-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-33" target="k7U_-NwJ5NO1i_bqe0lr-37">
+        <mxCell id="qiZOSL3Y7ibra8DdlLck-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=8 8;" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-33" target="k7U_-NwJ5NO1i_bqe0lr-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qiZOSL3Y7ibra8DdlLck-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-37" target="k7U_-NwJ5NO1i_bqe0lr-41">
+        <mxCell id="qiZOSL3Y7ibra8DdlLck-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-37" target="k7U_-NwJ5NO1i_bqe0lr-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qiZOSL3Y7ibra8DdlLck-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-35" target="k7U_-NwJ5NO1i_bqe0lr-41">
+        <mxCell id="qiZOSL3Y7ibra8DdlLck-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-35" target="k7U_-NwJ5NO1i_bqe0lr-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ylb18Ezix_Vyf_NCrJ4i-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="k7U_-NwJ5NO1i_bqe0lr-16" target="k7U_-NwJ5NO1i_bqe0lr-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
