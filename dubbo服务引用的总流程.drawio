@@ -1,9 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T12:24:13.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.2" etag="6tI1c5L3jJUURtv9rMQx" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T12:40:40.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CdvlmPutgVtnOyCVC78l" version="21.6.2" type="github">
   <diagram name="第 1 页" id="h0kYKDePV_c7tOEDDWpT">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l-s5zO7fNe6px6YeGXw8-1" target="l-s5zO7fNe6px6YeGXw8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;启动时&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l-s5zO7fNe6px6YeGXw8-2" target="l-s5zO7fNe6px6YeGXw8-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;调用代理时&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-3" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Dubbo&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="l-s5zO7fNe6px6YeGXw8-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;生成惰性代理&lt;br&gt;注入业务类&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l-s5zO7fNe6px6YeGXw8-8" target="l-s5zO7fNe6px6YeGXw8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;惰性代理&lt;br&gt;创建真代理&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-10" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Spring工程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l-s5zO7fNe6px6YeGXw8-12" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;调用完成&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
